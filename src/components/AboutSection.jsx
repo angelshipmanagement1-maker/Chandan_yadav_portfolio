@@ -116,33 +116,54 @@ const AboutSection = () => {
               </h2>
             </div>
             <div className="education-timeline">
-              {employee.education.map((edu, index) => (
-                <div key={index} className="timeline-item">
-                  <div className="timeline-marker">
-                    <div className="marker-dot"></div>
-                    <div className="marker-line"></div>
-                  </div>
-                  <div className="timeline-content">
-                    <div className="timeline-header">
-                      <h3 className="timeline-title">{edu.qualification}</h3>
-                      <span className="timeline-year">{edu.year}</span>
+              {employee.education && employee.education.length > 0 ? (
+                employee.education.map((edu, index) => (
+                  <div key={index} className="timeline-item">
+                    <div className="timeline-marker">
+                      <div className="marker-dot"></div>
+                      <div className="marker-line"></div>
                     </div>
-                    <p className="timeline-institution">{edu.board}</p>
-                    {edu.percentage !== "Pursuing" && (
+                    <div className="timeline-content">
+                      <div className="timeline-header">
+                        <h3 className="timeline-title">{edu.qualification}</h3>
+                        <span className="timeline-year">{edu.year}</span>
+                      </div>
+                      <p className="timeline-institution">{edu.board}</p>
+                      {edu.percentage !== "Pursuing" && (
+                        <div className="timeline-grade">
+                          <i className="fas fa-star"></i>
+                          <span>{edu.percentage}</span>
+                        </div>
+                      )}
+                      {edu.percentage === "Pursuing" && (
+                        <div className="timeline-status">
+                          <i className="fas fa-clock"></i>
+                          <span>Currently Pursuing</span>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))
+              ) : (
+                <div className="no-education-message">
+                  <div className="timeline-item">
+                    <div className="timeline-marker">
+                      <div className="marker-dot"></div>
+                    </div>
+                    <div className="timeline-content">
+                      <div className="timeline-header">
+                        <h3 className="timeline-title">Professional Experience</h3>
+                        <span className="timeline-year">27+ Years</span>
+                      </div>
+                      <p className="timeline-institution">Maritime Industry Leadership</p>
                       <div className="timeline-grade">
-                        <i className="fas fa-star"></i>
-                        <span>{edu.percentage}</span>
+                        <i className="fas fa-briefcase"></i>
+                        <span>Founder & Public Relations Officer</span>
                       </div>
-                    )}
-                    {edu.percentage === "Pursuing" && (
-                      <div className="timeline-status">
-                        <i className="fas fa-clock"></i>
-                        <span>Currently Pursuing</span>
-                      </div>
-                    )}
+                    </div>
                   </div>
                 </div>
-              ))}
+              )}
             </div>
           </div>
 
@@ -156,32 +177,33 @@ const AboutSection = () => {
             </div>
             <div className="skills-grid">
               <div className="skill-category">
-                <h3>Technical Skills</h3>
+                <h3>Business Leadership</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">IT Management</span>
-                  <span className="skill-tag">System Administration</span>
-                  <span className="skill-tag">Network Security</span>
-                  <span className="skill-tag">Database Management</span>
-                  <span className="skill-tag">Web Development</span>
+                  <span className="skill-tag">Public Relations Strategy</span>
+                  <span className="skill-tag">Corporate Communication</span>
+                  <span className="skill-tag">Business Development</span>
+                  <span className="skill-tag">Strategic Vision</span>
+                  <span className="skill-tag">Team Leadership</span>
                 </div>
               </div>
-              
+
               <div className="skill-category">
-                <h3>Maritime Knowledge</h3>
+                <h3>Maritime Expertise</h3>
                 <div className="skill-tags">
                   <span className="skill-tag">Flag Documentation</span>
-                  <span className="skill-tag">Crew Management</span>
                   <span className="skill-tag">Maritime Regulations</span>
-                  <span className="skill-tag">Certification Processes</span>
+                  <span className="skill-tag">Flag State Certifications</span>
+                  <span className="skill-tag">Compliance Management</span>
+                  <span className="skill-tag">Industry Networking</span>
                 </div>
               </div>
-              
+
               <div className="skill-category">
-                <h3>Soft Skills</h3>
+                <h3>Professional Skills</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">Leadership</span>
-                  <span className="skill-tag">Problem Solving</span>
-                  <span className="skill-tag">Team Management</span>
+                  <span className="skill-tag">Marketing & Brand Awareness</span>
+                  <span className="skill-tag">Client Relations Management</span>
+                  <span className="skill-tag">Leadership & Team Building</span>
                   <span className="skill-tag">Communication</span>
                 </div>
               </div>
@@ -198,18 +220,18 @@ const AboutSection = () => {
             </div>
             <div className="summary-content">
               <p>
-                As the <strong>Technical and IT Head</strong> at Angel Seafarer Documentation, 
-                {employee.name.split(' ')[0]} brings a unique blend of technical expertise and 
-                maritime industry knowledge. With a strong educational background in Computer 
-                Applications and hands-on experience in IT management, he plays a crucial role 
-                in modernizing and streamlining the company's digital infrastructure.
+                As the <strong>Founder and Public Relations Officer</strong> at Angel Seafarer Documentation,
+                {employee.name.split(' ')[0]} brings over 27 years of extensive experience in the maritime
+                industry. His visionary leadership and deep understanding of seafarer documentation has
+                established the company as a trusted partner for ship owners, managers, and crew agencies
+                worldwide.
               </p>
               <p>
-                His responsibilities include overseeing the technical aspects of seafarer 
-                documentation processes, implementing digital solutions for flag state 
-                documentation, and ensuring the security and efficiency of all IT systems. 
-                {employee.name.split(' ')[0]}'s innovative approach has significantly improved 
-                the company's operational efficiency and client service delivery.
+                His responsibilities include establishing the company's mission and direction, building
+                industry networks and key partnerships, overseeing overall operations and compliance,
+                and representing the brand at the highest level. {employee.name.split(' ')[0]}'s strategic
+                vision and commitment to excellence has made Angel Seafarer Documentation a leading provider
+                of flag state certification services across multiple international flags.
               </p>
             </div>
           </div>

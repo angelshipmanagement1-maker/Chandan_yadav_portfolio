@@ -18,7 +18,7 @@ export const employee = {
   address: "AL-4/9/11, 2nd Floor, Sahajeevan Apartment, Opp. HDFC Bank, Sector 16, Airoli, Navi Mumbai, Thane, Maharashtra – 400708",
   
   // Physical Characteristics
-  height: "5'9\"",
+  height: "5'6\"",
   eyeColor: "Brown",
   distinguishingMarks: "None",
 
@@ -48,7 +48,20 @@ export const employee = {
   // ],
   
   // Professional Skills
-  skills: ["Public Relations Strategy", "Corporate Communication", "Marketing & Brand Awareness", "Leadership & Team Building", "Business Development", "Strategic Vision"],
+  skills: [
+    "Public Relations Strategy",
+    "Corporate Communication",
+    "Marketing & Brand Awareness",
+    "Leadership & Team Building",
+    "Business Development",
+    "Strategic Vision",
+    "Maritime Documentation",
+    "Flag State Certifications",
+    "Client Relations Management",
+    "Industry Networking",
+    "Compliance & Regulations",
+    "Team Leadership"
+  ],
   specializations: ["Maritime Documentation Services", "Industry Networking", "Client Relations", "Founder Leadership"],
   
   // Emergency Contact
@@ -116,7 +129,7 @@ export const companyInfo = {
     "Crewing and Documentation Support for Maritime Operations"
   ],
   
-  established: "2020", // Add actual establishment year
+  established: "2014", // Add actual establishment year
   license: "SEAFARER-DOC-2024"
 };
 

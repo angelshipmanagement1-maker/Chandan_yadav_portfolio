@@ -230,20 +230,22 @@ const ProfileCard = ({ employee }) => {
               </div>
             </div>
 
-            {/* Education */}
-            <div className="info-section-card">
-              <h4 className="section-title">Education</h4>
-              <div className="education-list">
-                {employee.education.map((edu, index) => (
-                  <div key={index} className="education-item">
-                    <div className="education-qualification">{edu.qualification}</div>
-                    <div className="education-details">
-                      <span>{edu.board} • {edu.year} • {edu.percentage}</span>
+            {/* Education - Only show if education data exists */}
+            {employee.education && employee.education.length > 0 && (
+              <div className="info-section-card">
+                <h4 className="section-title">Education</h4>
+                <div className="education-list">
+                  {employee.education.map((edu, index) => (
+                    <div key={index} className="education-item">
+                      <div className="education-qualification">{edu.qualification}</div>
+                      <div className="education-details">
+                        <span>{edu.board} • {edu.year} • {edu.percentage}</span>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
 
             {/* Skills */}
             <div className="info-section-card">
