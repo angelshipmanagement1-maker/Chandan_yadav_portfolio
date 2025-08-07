@@ -5,7 +5,7 @@ export const employee = {
   name: "Sushant Pandurang Shinde",
   designation: "Technical and IT Head",
   codeName: "ASD-006",
-  photo: "/sushant.jpg",
+  photo: "./sushant.jpg", // Replace with actual photo
   
   // Personal Details
   dateOfBirth: "24/01/2005",
