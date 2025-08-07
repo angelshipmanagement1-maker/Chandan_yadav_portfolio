@@ -38,7 +38,7 @@ const ProfileCard = ({ employee }) => {
   // Get the correct photo path
   const getPhotoPath = () => {
     // Use the direct path to maintain quality
-    return `./shankar1.jpg`;
+    return `./bhushan1.jpg`;
   };
 
   const handlePhotoError = (e, isDesktop = false) => {

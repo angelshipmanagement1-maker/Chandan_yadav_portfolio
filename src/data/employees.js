@@ -1,95 +1,95 @@
 // Employee Profile for Angel Seafarer Documentation
 export const employee = {
   // Personal Information
-  id: "ASD-009",
-  name: "Shankar Chikane",
-  designation: "Public Relations Officer & Founder",
-  codeName: "ASD-009",
-  photo: "./shankar1.jpg", // Replace with actual photo
+  id: "ASD-007",
+  name: "Bhushan Jadhav",
+  designation: "Accounts Head",
+  codeName: "ASD-007",
+  photo: "./bhushan1.jpg", // Replace with actual photo
 
   // Personal Details
-  dateOfBirth: "12/11/1979",
-  age: "44",
-  bloodGroup: "O+",
+  dateOfBirth: "28/05/2001",
+  age: "23",
+  bloodGroup: "Not Available",
   nationality: "Indian",
-  aadharNumber: "Not Provided",
-  phone: "7977399459",
+  aadharNumber: "7563 9390 7714",
+  phone: "8425967355",
   alternatePhone: "022 31494349",
-  address: "AL-4/9/11, 2nd Floor, Sahajeevan Apartment, Opp. HDFC Bank, Sector 16, Airoli, Navi Mumbai, Thane, Maharashtra – 400708",
+  address: "S/O Suresh Jadhav, Karan Store, Om Sai Chawl, Masi Koli Samaj Vasaht, Bhavani Nagar, Bhandup East S.O, Mumbai, Maharashtra – 400042",
   
   // Physical Characteristics
-  height: "5'6\"",
+  height: "5'7\"",
   eyeColor: "Brown",
   distinguishingMarks: "None",
 
   // Work Information
-  badgeNumber: "ASD-009",
+  badgeNumber: "ASD-007",
   
-  // Educational Background - COMMENTED OUT FOR SHANKAR CHIKANE
-  // education: [
-  //   {
-  //     qualification: "10th (SSC)",
-  //     year: "2020",
-  //     board: "State Board",
-  //     percentage: "71%"
-  //   },
-  //   {
-  //     qualification: "12th (HSC)",
-  //     year: "2022",
-  //     board: "State Board",
-  //     percentage: "60%"
-  //   },
-  //   {
-  //     qualification: "Bachelors in Computer Application (BCA)",
-  //     year: "2025",
-  //     board: "Tilak Maharashtra Vidyapeeth, Pune, Maharashtra",
-  //     percentage: "Pursuing"
-  //   }
-  // ],
+  // Educational Background
+  education: [
+    {
+      qualification: "10th (SSC)",
+      year: "2016",
+      board: "State Board",
+      percentage: "54%"
+    },
+    {
+      qualification: "12th (HSC)",
+      year: "2018",
+      board: "State Board",
+      percentage: "56%"
+    },
+    {
+      qualification: "Bachelor of Commerce (B.Com)",
+      year: "2021",
+      board: "Yashwantrao Chavan University",
+      percentage: "Grade Not Provided"
+    }
+  ],
   
   // Professional Skills
   skills: [
-    "Public Relations Strategy",
-    "Corporate Communication",
-    "Marketing & Brand Awareness",
-    "Leadership & Team Building",
-    "Business Development",
-    "Strategic Vision",
-    "Maritime Documentation",
-    "Flag State Certifications",
-    "Client Relations Management",
-    "Industry Networking",
-    "Compliance & Regulations",
-    "Team Leadership"
+    "Tally ERP (Accounting Software)",
+    "MS Excel (Advanced Formulas, Pivot Tables, Financial Modeling)",
+    "Google Sheets/Spreadsheets",
+    "GST Filing & Taxation",
+    "Invoice Generation & Billing Systems",
+    "Bank Reconciliation Statements (BRS)",
+    "Ledger Management & Journal Entries",
+    "Payroll Handling",
+    "Financial Reporting & MIS Reports",
+    "Basic Audit Preparation"
   ],
-  specializations: ["Maritime Documentation Services", "Industry Networking", "Client Relations", "Founder Leadership"],
+  specializations: ["Financial Management", "Accounting Software", "Tax Compliance", "Financial Reporting"],
   
   // Emergency Contact
   emergencyContact: {
-    name: "Vandana Shankar Chikane",
-    relation: "Spouse",
-    phone: "9136574610",
-    address: "AL-4/9/11, 2nd Floor, Sahajeevan Apartment, Opp. HDFC Bank, Sector 16, Airoli, Navi Mumbai, Thane, Maharashtra – 400708"
+    name: "Roshan Jadhav",
+    relation: "Brother",
+    phone: "7021442392",
+    address: "S/O Suresh Jadhav, Karan Store, Om Sai Chawl, Masi Koli Samaj Vasaht, Bhavani Nagar, Bhandup East S.O, Mumbai, Maharashtra – 400042"
   },
   
   // Professional Details
-  dateOfJoining: "1997-01-01", // Company founding date
-  department: "Public Relations & Management",
-  employeeType: "Founder & Full-Time",
-  experience: "27+ Years",
+  dateOfJoining: "2022-01-15", // Estimated joining date after graduation
+  department: "Accounts & Finance",
+  employeeType: "Full-Time",
+  experience: "3+ Years",
   status: "Active",
   
   // Languages
   languages: ["English", "Hindi", "Marathi"],
 
-  // Founder Responsibilities
-  founderRole: [
-    "Establishing company mission and direction",
-    "Building industry networks and key partnerships",
-    "Overseeing overall operations and compliance",
-    "Innovating and adapting to shipping industry trends",
-    "Guiding teams in delivering reliable flag documentation services",
-    "Representing the brand and managing client relations at the highest level"
+  // Key Responsibilities
+  keyResponsibilities: [
+    "Managing company accounts and financial records",
+    "Preparing financial statements and reports",
+    "Handling GST filing and tax compliance",
+    "Processing invoices and managing billing systems",
+    "Maintaining ledgers and journal entries",
+    "Conducting bank reconciliation statements",
+    "Managing payroll and employee financial records",
+    "Preparing MIS reports for management review"
   ]
 };
 

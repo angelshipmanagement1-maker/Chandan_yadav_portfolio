@@ -177,34 +177,34 @@ const AboutSection = () => {
             </div>
             <div className="skills-grid">
               <div className="skill-category">
-                <h3>Business Leadership</h3>
+                <h3>Accounting Software</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">Public Relations Strategy</span>
-                  <span className="skill-tag">Corporate Communication</span>
-                  <span className="skill-tag">Business Development</span>
-                  <span className="skill-tag">Strategic Vision</span>
-                  <span className="skill-tag">Team Leadership</span>
+                  <span className="skill-tag">Tally ERP</span>
+                  <span className="skill-tag">MS Excel (Advanced)</span>
+                  <span className="skill-tag">Google Sheets</span>
+                  <span className="skill-tag">Financial Modeling</span>
+                  <span className="skill-tag">Pivot Tables</span>
                 </div>
               </div>
 
               <div className="skill-category">
-                <h3>Maritime Expertise</h3>
+                <h3>Financial Management</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">Flag Documentation</span>
-                  <span className="skill-tag">Maritime Regulations</span>
-                  <span className="skill-tag">Flag State Certifications</span>
-                  <span className="skill-tag">Compliance Management</span>
-                  <span className="skill-tag">Industry Networking</span>
+                  <span className="skill-tag">GST Filing & Taxation</span>
+                  <span className="skill-tag">Invoice Generation</span>
+                  <span className="skill-tag">Bank Reconciliation (BRS)</span>
+                  <span className="skill-tag">Ledger Management</span>
+                  <span className="skill-tag">Journal Entries</span>
                 </div>
               </div>
 
               <div className="skill-category">
                 <h3>Professional Skills</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">Marketing & Brand Awareness</span>
-                  <span className="skill-tag">Client Relations Management</span>
-                  <span className="skill-tag">Leadership & Team Building</span>
-                  <span className="skill-tag">Communication</span>
+                  <span className="skill-tag">Payroll Handling</span>
+                  <span className="skill-tag">Financial Reporting</span>
+                  <span className="skill-tag">MIS Reports</span>
+                  <span className="skill-tag">Basic Audit Preparation</span>
                 </div>
               </div>
             </div>
@@ -220,18 +220,18 @@ const AboutSection = () => {
             </div>
             <div className="summary-content">
               <p>
-                As the <strong>Founder and Public Relations Officer</strong> at Angel Seafarer Documentation,
-                {employee.name.split(' ')[0]} brings over 27 years of extensive experience in the maritime
-                industry. His visionary leadership and deep understanding of seafarer documentation has
-                established the company as a trusted partner for ship owners, managers, and crew agencies
-                worldwide.
+                As the <strong>Accounts Head</strong> at Angel Seafarer Documentation,
+                {employee.name.split(' ')[0]} brings expertise in financial management and accounting
+                operations. With a Bachelor's degree in Commerce and specialized skills in accounting
+                software like Tally ERP, he plays a crucial role in maintaining the company's financial
+                health and ensuring compliance with taxation and regulatory requirements.
               </p>
               <p>
-                His responsibilities include establishing the company's mission and direction, building
-                industry networks and key partnerships, overseeing overall operations and compliance,
-                and representing the brand at the highest level. {employee.name.split(' ')[0]}'s strategic
-                vision and commitment to excellence has made Angel Seafarer Documentation a leading provider
-                of flag state certification services across multiple international flags.
+                His responsibilities include managing company accounts, preparing financial statements,
+                handling GST filing and tax compliance, processing invoices and billing systems, and
+                maintaining accurate ledgers and journal entries. {employee.name.split(' ')[0]}'s attention
+                to detail and proficiency in financial reporting ensures smooth financial operations and
+                supports the company's growth in the maritime documentation industry.
               </p>
             </div>
           </div>
