@@ -32,5 +32,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
-        external_repository: angelshipmanagement1-maker/shushant_portfolio
-        publish_branch: gh-pages
