@@ -1,73 +1,83 @@
 // Employee Profile for Angel Seafarer Documentation
 export const employee = {
   // Personal Information
-  id: "ASD-006",
-  name: "Sushant Pandurang Shinde",
-  designation: "Technical and IT Head",
-  codeName: "ASD-006",
-  photo: "./sushant.jpg", // Replace with actual photo
-  
+  id: "ASD-009",
+  name: "Shankar Chikane",
+  designation: "Public Relations Officer & Founder",
+  codeName: "ASD-009",
+  photo: "./shankar1.jpg", // Replace with actual photo
+
   // Personal Details
-  dateOfBirth: "24/01/2005",
-  age: "19",
+  dateOfBirth: "12/11/1979",
+  age: "44",
   bloodGroup: "O+",
   nationality: "Indian",
-  aadharNumber: "2667 3397 6077",
-  phone: "8879784983",
+  aadharNumber: "Not Provided",
+  phone: "7977399459",
   alternatePhone: "022 31494349",
-  address: "House No. 1017, Sector 7, Koparkhairne, Navi Mumbai – 400709",
+  address: "AL-4/9/11, 2nd Floor, Sahajeevan Apartment, Opp. HDFC Bank, Sector 16, Airoli, Navi Mumbai, Thane, Maharashtra – 400708",
   
   // Physical Characteristics
-  height: "5'8\"",
+  height: "5'9\"",
   eyeColor: "Brown",
   distinguishingMarks: "None",
-  
+
   // Work Information
-  badgeNumber: "ASD-006",
+  badgeNumber: "ASD-009",
   
-  // Educational Background
-  education: [
-    {
-      qualification: "10th (SSC)",
-      year: "2020",
-      board: "State Board",
-      percentage: "71%"
-    },
-    {
-      qualification: "12th (HSC)",
-      year: "2022",
-      board: "State Board",
-      percentage: "60%"
-    },
-    {
-      qualification: "Bachelors in Computer Application (BCA)",
-      year: "2025",
-      board: "Tilak Maharashtra Vidyapeeth, Pune, Maharashtra",
-      percentage: "Pursuing"
-    }
-  ],
+  // Educational Background - COMMENTED OUT FOR SHANKAR CHIKANE
+  // education: [
+  //   {
+  //     qualification: "10th (SSC)",
+  //     year: "2020",
+  //     board: "State Board",
+  //     percentage: "71%"
+  //   },
+  //   {
+  //     qualification: "12th (HSC)",
+  //     year: "2022",
+  //     board: "State Board",
+  //     percentage: "60%"
+  //   },
+  //   {
+  //     qualification: "Bachelors in Computer Application (BCA)",
+  //     year: "2025",
+  //     board: "Tilak Maharashtra Vidyapeeth, Pune, Maharashtra",
+  //     percentage: "Pursuing"
+  //   }
+  // ],
   
   // Professional Skills
-  skills: ["Web Development", "Database Management", "System Administration", "IT Support"],
-  specializations: ["Maritime Documentation Systems", "IT Infrastructure"],
+  skills: ["Public Relations Strategy", "Corporate Communication", "Marketing & Brand Awareness", "Leadership & Team Building", "Business Development", "Strategic Vision"],
+  specializations: ["Maritime Documentation Services", "Industry Networking", "Client Relations", "Founder Leadership"],
   
   // Emergency Contact
   emergencyContact: {
-    name: "Pandurang Shinde",
-    relation: "Father",
-    phone: "9969752516",
-    address: "House No. 1017, Sector 7, Koparkhairne, Navi Mumbai – 400709"
+    name: "Vandana Shankar Chikane",
+    relation: "Spouse",
+    phone: "9136574610",
+    address: "AL-4/9/11, 2nd Floor, Sahajeevan Apartment, Opp. HDFC Bank, Sector 16, Airoli, Navi Mumbai, Thane, Maharashtra – 400708"
   },
   
   // Professional Details
-  dateOfJoining: "2024-01-01",
-  department: "Technical & IT",
-  employeeType: "Full-Time",
-  experience: "2+ Years",
+  dateOfJoining: "1997-01-01", // Company founding date
+  department: "Public Relations & Management",
+  employeeType: "Founder & Full-Time",
+  experience: "27+ Years",
   status: "Active",
   
   // Languages
-  languages: ["English", "Hindi", "Marathi"]
+  languages: ["English", "Hindi", "Marathi"],
+
+  // Founder Responsibilities
+  founderRole: [
+    "Establishing company mission and direction",
+    "Building industry networks and key partnerships",
+    "Overseeing overall operations and compliance",
+    "Innovating and adapting to shipping industry trends",
+    "Guiding teams in delivering reliable flag documentation services",
+    "Representing the brand and managing client relations at the highest level"
+  ]
 };
 
 // Company Information

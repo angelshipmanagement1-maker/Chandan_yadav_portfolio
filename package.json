@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -r https://github.com/ashishjaiswal222/sushant_portfolio.git",
+    "deploy": "gh-pages -d dist -r https://github.com/angelshipmanagement1-maker/Shankar_chikane_portfolio.git",
     "deploy-script": "node deploy.js"
   },
   "keywords": [
