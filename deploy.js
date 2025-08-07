@@ -46,7 +46,7 @@ try {
   console.log('2. GitHub Actions will automatically deploy');
   console.log('3. Or run: npm run deploy (if gh-pages is configured)');
   console.log('\n🌐 Your site will be available at:');
-  console.log('https://angelshipmanagement1-maker.github.io/Bhushan_jadhav_portfolio/');
+  console.log('https://angelshipmanagement1-maker.github.io/kalpesh_chikane_portfolio/');
 
 } catch (error) {
   console.error('❌ Deployment failed:', error.message);

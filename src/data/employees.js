@@ -1,80 +1,74 @@
 // Employee Profile for Angel Seafarer Documentation
 export const employee = {
   // Personal Information
-  id: "ASD-007",
-  name: "Bhushan Jadhav",
-  designation: "Accounts Head",
-  codeName: "ASD-007",
-  photo: "./bhushan1.jpg", // Replace with actual photo
+  id: "ASD-373",
+  name: "Kalpesh Chikane",
+  designation: "Dispatch Head",
+  codeName: "ASD-373",
+  photo: "./kalpesh.jpg", // Replace with actual photo
 
   // Personal Details
-  dateOfBirth: "28/05/2001",
-  age: "23",
+  dateOfBirth: "09/06/1985",
+  age: "39",
   bloodGroup: "Not Available",
   nationality: "Indian",
-  aadharNumber: "7563 9390 7714",
-  phone: "8425967355",
+  aadharNumber: "8407 5550 7016",
+  phone: "8850965011",
   alternatePhone: "022 31494349",
-  address: "S/O Suresh Jadhav, Karan Store, Om Sai Chawl, Masi Koli Samaj Vasaht, Bhavani Nagar, Bhandup East S.O, Mumbai, Maharashtra – 400042",
+  address: "Flat No. 101, 'B' Wing, Sai Crystal, Morivali Pada, Ambernath East – 421501",
   
   // Physical Characteristics
-  height: "5'7\"",
+  height: "5'8\"",
   eyeColor: "Brown",
   distinguishingMarks: "None",
 
   // Work Information
-  badgeNumber: "ASD-007",
+  badgeNumber: "ASD-373",
   
   // Educational Background
   education: [
     {
       qualification: "10th (SSC)",
-      year: "2016",
+      year: "2000",
       board: "State Board",
-      percentage: "54%"
+      percentage: "55%"
     },
     {
       qualification: "12th (HSC)",
-      year: "2018",
+      year: "2002",
       board: "State Board",
-      percentage: "56%"
-    },
-    {
-      qualification: "Bachelor of Commerce (B.Com)",
-      year: "2021",
-      board: "Yashwantrao Chavan University",
-      percentage: "Grade Not Provided"
+      percentage: "Completed"
     }
   ],
   
   // Professional Skills
   skills: [
-    "Tally ERP (Accounting Software)",
-    "MS Excel (Advanced Formulas, Pivot Tables, Financial Modeling)",
-    "Google Sheets/Spreadsheets",
-    "GST Filing & Taxation",
-    "Invoice Generation & Billing Systems",
-    "Bank Reconciliation Statements (BRS)",
-    "Ledger Management & Journal Entries",
-    "Payroll Handling",
-    "Financial Reporting & MIS Reports",
-    "Basic Audit Preparation"
+    "Document Dispatch Management",
+    "Logistics & Delivery Coordination",
+    "Quality Control & Final Verification",
+    "Document Packaging and Safety Handling",
+    "Tracking & Delivery Confirmation",
+    "Process Optimization in Dispatch Flow",
+    "Team Supervision & Task Allocation",
+    "Compliance with Shipping Standards",
+    "Record Maintenance & Reporting",
+    "Maritime Document Handling"
   ],
-  specializations: ["Financial Management", "Accounting Software", "Tax Compliance", "Financial Reporting"],
+  specializations: ["Document Dispatch", "Quality Assurance", "Logistics Management", "Team Leadership"],
   
   // Emergency Contact
   emergencyContact: {
-    name: "Roshan Jadhav",
-    relation: "Brother",
-    phone: "7021442392",
-    address: "S/O Suresh Jadhav, Karan Store, Om Sai Chawl, Masi Koli Samaj Vasaht, Bhavani Nagar, Bhandup East S.O, Mumbai, Maharashtra – 400042"
+    name: "Home Contact",
+    relation: "Family",
+    phone: "0251 4038108",
+    address: "Flat No. 101, 'B' Wing, Sai Crystal, Morivali Pada, Ambernath East – 421501"
   },
   
   // Professional Details
-  dateOfJoining: "2022-01-15", // Estimated joining date after graduation
-  department: "Accounts & Finance",
+  dateOfJoining: "2015-03-01", // Estimated joining date based on experience
+  department: "Dispatch & Logistics",
   employeeType: "Full-Time",
-  experience: "3+ Years",
+  experience: "9+ Years",
   status: "Active",
   
   // Languages
@@ -82,14 +76,14 @@ export const employee = {
 
   // Key Responsibilities
   keyResponsibilities: [
-    "Managing company accounts and financial records",
-    "Preparing financial statements and reports",
-    "Handling GST filing and tax compliance",
-    "Processing invoices and managing billing systems",
-    "Maintaining ledgers and journal entries",
-    "Conducting bank reconciliation statements",
-    "Managing payroll and employee financial records",
-    "Preparing MIS reports for management review"
+    "Leading end-to-end document handling and quality assurance process",
+    "Managing document dispatch operations and logistics coordination",
+    "Conducting final verification and quality control of seafarer documents",
+    "Overseeing document packaging and safety handling procedures",
+    "Tracking delivery confirmation and maintaining dispatch records",
+    "Optimizing dispatch flow processes for efficiency",
+    "Supervising dispatch team and allocating tasks effectively",
+    "Ensuring compliance with shipping standards and regulations"
   ]
 };
 

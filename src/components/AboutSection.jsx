@@ -177,34 +177,34 @@ const AboutSection = () => {
             </div>
             <div className="skills-grid">
               <div className="skill-category">
-                <h3>Accounting Software</h3>
+                <h3>Dispatch Management</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">Tally ERP</span>
-                  <span className="skill-tag">MS Excel (Advanced)</span>
-                  <span className="skill-tag">Google Sheets</span>
-                  <span className="skill-tag">Financial Modeling</span>
-                  <span className="skill-tag">Pivot Tables</span>
+                  <span className="skill-tag">Document Dispatch Management</span>
+                  <span className="skill-tag">Logistics & Delivery Coordination</span>
+                  <span className="skill-tag">Quality Control & Verification</span>
+                  <span className="skill-tag">Process Optimization</span>
+                  <span className="skill-tag">Team Supervision</span>
                 </div>
               </div>
 
               <div className="skill-category">
-                <h3>Financial Management</h3>
+                <h3>Maritime Operations</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">GST Filing & Taxation</span>
-                  <span className="skill-tag">Invoice Generation</span>
-                  <span className="skill-tag">Bank Reconciliation (BRS)</span>
-                  <span className="skill-tag">Ledger Management</span>
-                  <span className="skill-tag">Journal Entries</span>
+                  <span className="skill-tag">Document Packaging & Safety</span>
+                  <span className="skill-tag">Tracking & Delivery Confirmation</span>
+                  <span className="skill-tag">Shipping Standards Compliance</span>
+                  <span className="skill-tag">Maritime Document Handling</span>
+                  <span className="skill-tag">Record Maintenance</span>
                 </div>
               </div>
 
               <div className="skill-category">
-                <h3>Professional Skills</h3>
+                <h3>Leadership Skills</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">Payroll Handling</span>
-                  <span className="skill-tag">Financial Reporting</span>
-                  <span className="skill-tag">MIS Reports</span>
-                  <span className="skill-tag">Basic Audit Preparation</span>
+                  <span className="skill-tag">Task Allocation</span>
+                  <span className="skill-tag">Quality Assurance</span>
+                  <span className="skill-tag">Process Management</span>
+                  <span className="skill-tag">Reporting & Documentation</span>
                 </div>
               </div>
             </div>
@@ -220,18 +220,18 @@ const AboutSection = () => {
             </div>
             <div className="summary-content">
               <p>
-                As the <strong>Accounts Head</strong> at Angel Seafarer Documentation,
-                {employee.name.split(' ')[0]} brings expertise in financial management and accounting
-                operations. With a Bachelor's degree in Commerce and specialized skills in accounting
-                software like Tally ERP, he plays a crucial role in maintaining the company's financial
-                health and ensuring compliance with taxation and regulatory requirements.
+                As the <strong>Dispatch Head</strong> at Angel Seafarer Documentation,
+                {employee.name.split(' ')[0]} leads the end-to-end document handling and quality assurance
+                process. With over 9 years of experience in logistics and dispatch operations, he serves as
+                the final checkpoint in the documentation workflow, ensuring accuracy and integrity of all
+                outgoing seafarer documents.
               </p>
               <p>
-                His responsibilities include managing company accounts, preparing financial statements,
-                handling GST filing and tax compliance, processing invoices and billing systems, and
-                maintaining accurate ledgers and journal entries. {employee.name.split(' ')[0]}'s attention
-                to detail and proficiency in financial reporting ensures smooth financial operations and
-                supports the company's growth in the maritime documentation industry.
+                His responsibilities include managing document dispatch operations, conducting quality control
+                and final verification, overseeing document packaging and safety handling, and coordinating
+                logistics and delivery confirmation. {employee.name.split(' ')[0]}'s leadership in dispatch
+                operations minimizes errors and maintains the company's reputation for reliable document
+                handling in the maritime industry.
               </p>
             </div>
           </div>
