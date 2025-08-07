@@ -1,0 +1,39 @@
+/* Matrix Rain Component Styles */
+.matrix-rain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.3;
+  background: transparent;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .matrix-rain {
+    opacity: 0.2; /* Reduce opacity on mobile for better readability */
+  }
+}
+
+@media (max-width: 480px) {
+  .matrix-rain {
+    opacity: 0.1; /* Further reduce on small screens */
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .matrix-rain {
+    opacity: 0.1;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .matrix-rain {
+    display: none;
+  }
+}

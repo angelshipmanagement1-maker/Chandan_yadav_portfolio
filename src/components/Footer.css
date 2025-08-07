@@ -1,0 +1,455 @@
+/* Footer Component Styles */
+.footer {
+  background: var(--gradient-card);
+  border-top: 1px solid var(--border-glow);
+  position: relative;
+  overflow: hidden;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-2xl) var(--spacing-md) var(--spacing-lg);
+  position: relative;
+  z-index: 2;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-2xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+/* Footer Sections */
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.footer-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-accent);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+
+.footer-section-title i {
+  color: var(--primary-cyan);
+  font-size: 1rem;
+}
+
+/* Company Section */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.footer-logo-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--gradient-accent);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--dark-navy);
+  box-shadow: 0 0 20px var(--shadow-glow);
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-company-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-primary);
+  letter-spacing: 1px;
+}
+
+.footer-tagline {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  font-weight: 400;
+}
+
+.footer-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.footer-established {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--text-accent);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.footer-established i {
+  color: var(--primary-cyan);
+}
+
+/* Contact Section */
+.footer-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  transition: color var(--transition-normal);
+}
+
+.footer-contact-item:hover {
+  color: var(--text-primary);
+}
+
+.footer-contact-item i {
+  color: var(--primary-cyan);
+  font-size: 1rem;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+/* Services Section */
+.footer-services-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.footer-services-list li {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  transition: all var(--transition-normal);
+  padding: var(--spacing-xs) 0;
+  border-left: 2px solid transparent;
+  padding-left: var(--spacing-sm);
+}
+
+.footer-services-list li:hover {
+  color: var(--text-primary);
+  border-left-color: var(--primary-cyan);
+  transform: translateX(5px);
+}
+
+.footer-services-list li i {
+  color: var(--primary-cyan);
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+/* System Section */
+.footer-system-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.system-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-sm);
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(0, 255, 255, 0.1);
+  transition: all var(--transition-normal);
+}
+
+.system-item:hover {
+  background: rgba(0, 255, 255, 0.05);
+  border-color: rgba(0, 255, 255, 0.3);
+}
+
+.system-label {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.system-value {
+  color: var(--text-primary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.status-online {
+  color: var(--accent-electric);
+}
+
+.status-online i {
+  font-size: 0.6rem;
+  animation: pulse 2s infinite;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  border-top: 1px solid rgba(0, 255, 255, 0.2);
+  padding-top: var(--spacing-lg);
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.footer-copyright p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.footer-legal {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.footer-tech-info {
+  display: flex;
+  align-items: center;
+}
+
+.tech-badges {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.tech-badge {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  background: rgba(0, 255, 255, 0.1);
+  color: var(--text-accent);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  transition: all var(--transition-normal);
+}
+
+.tech-badge:hover {
+  background: rgba(0, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+.tech-badge i {
+  font-size: 0.8rem;
+}
+
+/* Footer Decoration */
+.footer-decoration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.decoration-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--primary-cyan), transparent);
+  opacity: 0.5;
+}
+
+.decoration-center {
+  color: var(--primary-cyan);
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+/* Background Effects */
+.footer-effects {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.footer-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+  opacity: 0.3;
+}
+
+.footer-glow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    ellipse at center top,
+    rgba(0, 255, 255, 0.1) 0%,
+    transparent 70%
+  );
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .footer-content {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-xl);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: var(--spacing-xl) var(--spacing-sm) var(--spacing-md);
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+  
+  .footer-bottom-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+  }
+  
+  .tech-badges {
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer-description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    padding: var(--spacing-lg) var(--spacing-sm);
+  }
+  
+  .footer-content {
+    gap: var(--spacing-md);
+  }
+  
+  .footer-section {
+    gap: var(--spacing-md);
+  }
+  
+  .footer-logo-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .footer-company-name {
+    font-size: 1.1rem;
+  }
+  
+  .footer-section-title {
+    font-size: 1rem;
+  }
+  
+  .tech-badges {
+    justify-content: center;
+  }
+  
+  .tech-badge {
+    font-size: 0.7rem;
+    padding: var(--spacing-xs);
+  }
+  
+  .footer-copyright {
+    text-align: center;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .footer {
+    border-top: 2px solid #ffffff;
+  }
+  
+  .system-item:hover {
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  .tech-badge:hover {
+    background: #ffffff;
+    color: #000000;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .footer-logo-icon,
+  .status-online i {
+    animation: none;
+  }
+  
+  .footer-services-list li:hover {
+    transform: none;
+  }
+  
+  .tech-badge,
+  .system-item,
+  .footer-contact-item,
+  .footer-services-list li {
+    transition: none;
+  }
+}

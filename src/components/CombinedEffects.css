@@ -1,0 +1,181 @@
+/* Combined Effects Component Styles */
+.combined-effects {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.matrix-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.particle-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+/* Cyber Grid Overlay */
+.cyber-grid-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 50px 50px;
+  animation: gridMove 20s linear infinite;
+  z-index: 0;
+}
+
+@keyframes gridMove {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(50px, 50px); }
+}
+
+/* Scan Lines Effect */
+.scan-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 255, 0.008) 2px,
+    rgba(0, 255, 255, 0.008) 4px
+  );
+  animation: scanMove 3s linear infinite;
+  z-index: 3;
+}
+
+@keyframes scanMove {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+/* Holographic Noise */
+.holographic-noise {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(0, 255, 136, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(255, 0, 128, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(0, 255, 255, 0.02) 0%, transparent 50%);
+  animation: noiseShift 8s ease-in-out infinite;
+  z-index: 0;
+}
+
+@keyframes noiseShift {
+  0%, 100% {
+    opacity: 0.3;
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    opacity: 0.6;
+    filter: hue-rotate(180deg);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .matrix-canvas {
+    opacity: 0.2;
+  }
+  
+  .particle-canvas {
+    opacity: 0.4;
+  }
+  
+  .cyber-grid-overlay {
+    background-size: 30px 30px;
+  }
+  
+  .scan-lines {
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 3px,
+      rgba(0, 255, 255, 0.005) 3px,
+      rgba(0, 255, 255, 0.005) 6px
+    );
+  }
+}
+
+@media (max-width: 480px) {
+  .matrix-canvas {
+    opacity: 0.15;
+  }
+  
+  .particle-canvas {
+    opacity: 0.3;
+  }
+  
+  .cyber-grid-overlay {
+    background-size: 20px 20px;
+  }
+  
+  .holographic-noise {
+    opacity: 0.5;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .matrix-canvas,
+  .particle-canvas {
+    opacity: 0.1;
+  }
+  
+  .cyber-grid-overlay {
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  }
+  
+  .scan-lines {
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(255, 255, 255, 0.02) 2px,
+      rgba(255, 255, 255, 0.02) 4px
+    );
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .cyber-grid-overlay,
+  .scan-lines,
+  .holographic-noise {
+    animation: none;
+  }
+  
+  .matrix-canvas,
+  .particle-canvas {
+    opacity: 0.1;
+  }
+}
