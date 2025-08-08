@@ -177,34 +177,34 @@ const AboutSection = () => {
             </div>
             <div className="skills-grid">
               <div className="skill-category">
-                <h3>Dispatch Management</h3>
+                <h3>Operations Management</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">Document Dispatch Management</span>
-                  <span className="skill-tag">Logistics & Delivery Coordination</span>
-                  <span className="skill-tag">Quality Control & Verification</span>
+                  <span className="skill-tag">Document Processing & Management</span>
+                  <span className="skill-tag">Operations Planning & Execution</span>
                   <span className="skill-tag">Process Optimization</span>
-                  <span className="skill-tag">Team Supervision</span>
+                  <span className="skill-tag">Workflow Management</span>
+                  <span className="skill-tag">Project Management</span>
                 </div>
               </div>
 
               <div className="skill-category">
-                <h3>Maritime Operations</h3>
+                <h3>Maritime Documentation</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">Document Packaging & Safety</span>
-                  <span className="skill-tag">Tracking & Delivery Confirmation</span>
-                  <span className="skill-tag">Shipping Standards Compliance</span>
-                  <span className="skill-tag">Maritime Document Handling</span>
-                  <span className="skill-tag">Record Maintenance</span>
+                  <span className="skill-tag">Maritime Documentation Systems</span>
+                  <span className="skill-tag">Document Verification & Authentication</span>
+                  <span className="skill-tag">Maritime Regulations & Standards</span>
+                  <span className="skill-tag">Quality Assurance & Compliance</span>
+                  <span className="skill-tag">Client Communication</span>
                 </div>
               </div>
 
               <div className="skill-category">
-                <h3>Leadership Skills</h3>
+                <h3>Leadership & Management</h3>
                 <div className="skill-tags">
+                  <span className="skill-tag">Team Leadership & Supervision</span>
+                  <span className="skill-tag">Cross-functional Coordination</span>
                   <span className="skill-tag">Task Allocation</span>
-                  <span className="skill-tag">Quality Assurance</span>
-                  <span className="skill-tag">Process Management</span>
-                  <span className="skill-tag">Reporting & Documentation</span>
+                  <span className="skill-tag">Operational Reporting</span>
                 </div>
               </div>
             </div>
@@ -220,18 +220,18 @@ const AboutSection = () => {
             </div>
             <div className="summary-content">
               <p>
-                As the <strong>Dispatch Head</strong> at Angel Seafarer Documentation,
-                {employee.name.split(' ')[0]} leads the end-to-end document handling and quality assurance
-                process. With over 9 years of experience in logistics and dispatch operations, he serves as
-                the final checkpoint in the documentation workflow, ensuring accuracy and integrity of all
-                outgoing seafarer documents.
+                As the <strong>Senior Operation Head</strong> at Angel Seafarer Documentation,
+                {employee.name.split(' ')[0]} oversees all operational activities and document processing
+                workflows. With over 12 years of experience in maritime operations and a Bachelor's degree
+                in Science, he leads cross-functional teams and ensures seamless execution of document
+                management strategies and procedures.
               </p>
               <p>
-                His responsibilities include managing document dispatch operations, conducting quality control
-                and final verification, overseeing document packaging and safety handling, and coordinating
-                logistics and delivery confirmation. {employee.name.split(' ')[0]}'s leadership in dispatch
-                operations minimizes errors and maintains the company's reputation for reliable document
-                handling in the maritime industry.
+                His responsibilities include coordinating with clients and stakeholders, implementing quality
+                assurance protocols, managing project timelines, and supervising document verification and
+                authentication activities. {employee.name.split(' ')[0]}'s expertise in operations management
+                and team leadership ensures optimal performance and maintains the company's high standards
+                in maritime documentation services.
               </p>
             </div>
           </div>

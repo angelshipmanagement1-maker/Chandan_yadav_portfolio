@@ -1,74 +1,82 @@
 // Employee Profile for Angel Seafarer Documentation
 export const employee = {
   // Personal Information
-  id: "ASD-373",
-  name: "Kalpesh Chikane",
-  designation: "Dispatch Head",
-  codeName: "ASD-373",
-  photo: "./kalpesh.jpg", // Replace with actual photo
+  id: "ASD-008",
+  name: "Chandan Yadav",
+  designation: "Senior Operation Head",
+  codeName: "ASD-008",
+  photo: "./chandan.png", // Replace with actual photo
 
   // Personal Details
-  dateOfBirth: "09/06/1985",
-  age: "39",
-  bloodGroup: "Not Available",
+  dateOfBirth: "29/08/1989",
+  age: "35",
+  bloodGroup: "B+",
   nationality: "Indian",
-  aadharNumber: "8407 5550 7016",
-  phone: "8850965011",
+  aadharNumber: "2744 2886 7633",
+  phone: "8850602671",
   alternatePhone: "022 31494349",
-  address: "Flat No. 101, 'B' Wing, Sai Crystal, Morivali Pada, Ambernath East – 421501",
+  address: "S/O Rajendra Yadav, Room No-276, Masi Koli Samaj Vasahat, Bhavani Nagar, Udayshri Road, M D Keni Vidhyalaya, Bhandup East, Mumbai, Maharashtra – 400042",
   
   // Physical Characteristics
-  height: "5'8\"",
+  height: "5'9\"",
   eyeColor: "Brown",
   distinguishingMarks: "None",
 
   // Work Information
-  badgeNumber: "ASD-373",
+  badgeNumber: "ASD-008",
   
   // Educational Background
   education: [
     {
       qualification: "10th (SSC)",
-      year: "2000",
+      year: "2005",
       board: "State Board",
-      percentage: "55%"
+      percentage: "75%"
     },
     {
       qualification: "12th (HSC)",
-      year: "2002",
+      year: "2007",
       board: "State Board",
+      percentage: "75%"
+    },
+    {
+      qualification: "Bachelor of Science (B.Sc.)",
+      year: "2010",
+      board: "University",
       percentage: "Completed"
     }
   ],
   
   // Professional Skills
   skills: [
-    "Document Dispatch Management",
-    "Logistics & Delivery Coordination",
-    "Quality Control & Final Verification",
-    "Document Packaging and Safety Handling",
-    "Tracking & Delivery Confirmation",
-    "Process Optimization in Dispatch Flow",
-    "Team Supervision & Task Allocation",
-    "Compliance with Shipping Standards",
-    "Record Maintenance & Reporting",
-    "Maritime Document Handling"
+    "Document Processing & Management",
+    "Maritime Documentation Systems",
+    "Operations Planning & Execution",
+    "Team Leadership & Supervision",
+    "Process Optimization & Workflow Management",
+    "Quality Assurance & Compliance",
+    "Client Communication & Coordination",
+    "Project Management & Task Allocation",
+    "Maritime Regulations & Standards",
+    "Document Verification & Authentication",
+    "Operational Reporting & Analysis",
+    "Cross-functional Team Coordination"
   ],
-  specializations: ["Document Dispatch", "Quality Assurance", "Logistics Management", "Team Leadership"],
+  specializations: ["Operations Management", "Document Processing", "Team Leadership", "Maritime Compliance"],
   
   // Emergency Contact
   emergencyContact: {
-    name: "Home Contact",
-    relation: "Family",
-    phone: "0251 4038108",
-    address: "Flat No. 101, 'B' Wing, Sai Crystal, Morivali Pada, Ambernath East – 421501"
+    name: "Rajendra Yadav",
+    relation: "Father",
+    phone: "9967239344",
+    address: "S/O Rajendra Yadav, Room No-276, Masi Koli Samaj Vasahat, Bhavani Nagar, Udayshri Road, M D Keni Vidhyalaya, Bhandup East, Mumbai, Maharashtra – 400042"
   },
   
   // Professional Details
-  dateOfJoining: "2015-03-01", // Estimated joining date based on experience
-  department: "Dispatch & Logistics",
+  dateOfJoining: "2012-06-01", // Estimated joining date after graduation
+  department: "Operations & Documentation",
   employeeType: "Full-Time",
-  experience: "9+ Years",
+  experience: "12+ Years",
   status: "Active",
   
   // Languages
@@ -76,14 +84,16 @@ export const employee = {
 
   // Key Responsibilities
   keyResponsibilities: [
-    "Leading end-to-end document handling and quality assurance process",
-    "Managing document dispatch operations and logistics coordination",
-    "Conducting final verification and quality control of seafarer documents",
-    "Overseeing document packaging and safety handling procedures",
-    "Tracking delivery confirmation and maintaining dispatch records",
-    "Optimizing dispatch flow processes for efficiency",
-    "Supervising dispatch team and allocating tasks effectively",
-    "Ensuring compliance with shipping standards and regulations"
+    "Overseeing all operational activities and document processing workflows",
+    "Leading and managing cross-functional teams for optimal performance",
+    "Executing comprehensive document management strategies and procedures",
+    "Coordinating with clients and stakeholders for seamless service delivery",
+    "Implementing quality assurance protocols and compliance standards",
+    "Managing project timelines and ensuring timely completion of deliverables",
+    "Supervising document verification, authentication, and processing activities",
+    "Developing and optimizing operational processes for enhanced efficiency",
+    "Training and mentoring team members on maritime documentation procedures",
+    "Maintaining operational reports and performance metrics for management review"
   ]
 };
 
