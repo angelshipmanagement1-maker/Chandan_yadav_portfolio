@@ -1,10 +1,10 @@
 // Employee Profile for Angel Seafarer Documentation
 export const employee = {
   // Personal Information
-  id: "ASD-008",
+  id: "ASD-029",
   name: "Chandan Yadav",
   designation: "Senior Operation Head",
-  codeName: "ASD-008",
+  codeName: "ASD-029",
   photo: "./chandan.png", // Replace with actual photo
 
   // Personal Details
@@ -23,7 +23,7 @@ export const employee = {
   distinguishingMarks: "None",
 
   // Work Information
-  badgeNumber: "ASD-008",
+  badgeNumber: "ASD-029",
   
   // Educational Background
   education: [
