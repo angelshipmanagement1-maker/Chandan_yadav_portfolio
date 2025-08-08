@@ -18,7 +18,7 @@ export const employee = {
   address: "S/O Rajendra Yadav, Room No-276, Masi Koli Samaj Vasahat, Bhavani Nagar, Udayshri Road, M D Keni Vidhyalaya, Bhandup East, Mumbai, Maharashtra – 400042",
   
   // Physical Characteristics
-  height: "5'9\"",
+  height: "5'4\"",
   eyeColor: "Brown",
   distinguishingMarks: "None",
 
@@ -73,10 +73,10 @@ export const employee = {
   },
   
   // Professional Details
-  dateOfJoining: "2012-06-01", // Estimated joining date after graduation
+  dateOfJoining: "2023-06-01", // Estimated joining date after graduation
   department: "Operations & Documentation",
   employeeType: "Full-Time",
-  experience: "12+ Years",
+  experience: "6+ Years",
   status: "Active",
   
   // Languages
